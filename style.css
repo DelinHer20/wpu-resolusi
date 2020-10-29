@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* syntak css */
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color:#DEB887;
+}
+
+
+.container {
+    width: 800px;
+    margin:auto;
+    background-color:#F5F5DC;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#A52A2A;
+    padding: 5px;
+
+}
+
+a:hover{
+    background-color: black;
+    color:white;
+}
+
+.hiro {
+    height: 375px;
+    background-size: cover;
+    background-image: url(hero2.jpg);
+    background-position: 0 -250px;
+    border-top: 5px solid #A52A2A;
+    border-bottom: 5px solid 	#A52A2A;
+}
+
+.content{
+    padding:20px;
+}
+
+
+.subjudul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.penulis{
+    font-size: 12px;
+    margin-top: -7px;
+}
+
+.penulis .link{
+    text-decoration: none;
+    color: brown;
+}
+
+.link:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.content .isi{
+    margin-top: 10px;
+    text-indent: 10px;
+}
+
+.footer{
+    background-color: 	#A0522D;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
